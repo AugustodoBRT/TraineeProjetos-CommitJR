@@ -1,0 +1,61 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+header,
+footer {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 10px;
+}
+.curriculo-pdf {
+  background: white;
+  padding: 30px;
+  color: #000;
+}
+.cabecalho-curriculo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.secao-curriculo {
+  margin-bottom: 20px;
+}
+.titulo-secao-pdf {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+.linha-divisoria {
+  border: 0;
+  border-top: 1px solid #000;
+  margin-bottom: 10px;
+}
+.linha-topo,
+.linha-subtopo {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.lista-itens {
+  padding-left: 20px;
+  margin-top: 5px;
+}
+@media (max-width: 600px) {
+  .linha-topo,
+  .linha-subtopo {
+    flex-direction: column;
+  }
+}
